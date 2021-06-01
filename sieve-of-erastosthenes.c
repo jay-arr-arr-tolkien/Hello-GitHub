@@ -1,3 +1,7 @@
+/*********************************************************
+ * Implementation of Sieve of Erastosthenes algorithm in C
+ *********************************************************/
+
 #include <stdio.h>
 
 int main()
@@ -22,7 +26,7 @@ int main()
 	P[i * j] = 1;
 
       i++;
-    }
+    }           /* If A[i] == 0 i is a prime */
 
   printf("\n");
 
